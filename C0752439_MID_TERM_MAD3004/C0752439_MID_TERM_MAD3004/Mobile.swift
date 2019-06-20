@@ -14,11 +14,14 @@ class Mobile {
     var InternetGBUsed: String
     var MinutesUsed: String
 
-    init(MobManufName:Name, PName:String, Mnum: Int, IntUsed: String, MinUsed: String)
+    init(MobManufName: MName, PName:String, Mnum: Int, IntUsed: String, MinUsed: String)
     {
-        self.MobilemanufacturerName = bID
-        self.PlanName = bDate
-        self.MobileNumber = bType
-        self.InternetGBUsed = TbillAmount
-        self.MinutesUsed = 
+        self.MobilemanufacturerName = MName
+        self.PlanName = PName
+        self.MobileNumber = Mnum
+        self.InternetGBUsed = IntUsed
+        self.MinutesUsed = MinUsed
+}
+    
+    
 }
