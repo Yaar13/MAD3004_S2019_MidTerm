@@ -25,12 +25,12 @@ class Customer : IDisplay {
     
     // Here full name is the computed proterty
     
-    init(c_id: Int,f_name: String,l_name: String,e_id: String,t_amt: Float) {
-        self.Customer_id = c_id
-        self.First_name = f_name
-        self.Last_name = l_name
-        self.Email_id = e_id
-        self.Total_amout = t_amt
+    init(Cust_id: Int,ful_name: String,Last_name: String,E_id: String,Tot_amt: Float) {
+        self.Customer_id = Cust_id
+        self.First_name = ful_name
+        self.Last_name = Last_name
+        self.Email_id = E_id
+        self.Total_amout = Tot_amt
     }
     
 }
