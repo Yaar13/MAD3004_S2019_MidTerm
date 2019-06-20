@@ -1,5 +1,5 @@
 //
-//  Hydro.swift
+//  Idisplay.swift
 //  C0752439_MID_TERM_MAD3004
 //
 //  Created by Gurparkash Kaur on 2019-06-20.
@@ -7,12 +7,6 @@
 //
 
 import Foundation
-
-class Hydro: Bill {
-    var AgencyName: String
-    var UnitsConsumed: String
-    
+protocol IDisplay {
+    func Idisplay()
 }
-
-
-

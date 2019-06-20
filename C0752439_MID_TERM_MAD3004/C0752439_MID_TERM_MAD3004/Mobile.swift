@@ -7,21 +7,27 @@
 //
 
 import Foundation
-class Mobile {
+class Mobile: Bill {
     var MobilemanufacturerName: String
     var PlanName: String
     var MobileNumber: Int
     var InternetGBUsed: String
     var MinutesUsed: String
 
-    init(MobManufName: MName, PName:String, Mnum: Int, IntUsed: String, MinUsed: String)
+    init(Mname: String , PName:String, Mnum: Int, IntUsed: String, MinUsed: String)
+    
     {
-        self.MobilemanufacturerName = MName
+        self.MobilemanufacturerName = Mname
         self.PlanName = PName
         self.MobileNumber = Mnum
         self.InternetGBUsed = IntUsed
         self.MinutesUsed = MinUsed
+        
+        super.init(bID:BillId , bDate: BillDate, bType: Billtype, TbillAmount: TotalBillAmount)
+        
+
+    }
+        
 }
-    
-    
-}
+
+

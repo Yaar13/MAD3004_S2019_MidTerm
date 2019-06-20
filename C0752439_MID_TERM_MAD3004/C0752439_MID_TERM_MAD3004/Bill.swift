@@ -7,11 +7,11 @@
 //
 
 import Foundation
-class Bill {
-    var BillId: Int
-    var BillDate: Date
-    var Billtype: String
-    var TotalBillAmount: Double
+class Bill: Idisplay {
+    var BillId: Int?
+    var BillDate: Date?
+    var Billtype: String?
+    var TotalBillAmount: Double?
     
     
     init(bID:Int, bDate:Date, bType: String, TbillAmount: Double)
