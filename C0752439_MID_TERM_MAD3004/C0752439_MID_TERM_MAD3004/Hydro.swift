@@ -9,7 +9,7 @@
 import Foundation
 
 class Hydro: Bill {
-    var AgencyName: String
+    var AgencyName: String?
     var UnitsConsumed: String
     init(BillId: Int,BillDate: Date,BillType:String,Aname: String, Uconsumed: String)
         {
@@ -17,7 +17,12 @@ class Hydro: Bill {
     self.UnitsConsumed = Uconsumed
             super.init(BillId: BillId, BillDate: BillDate, BillType: Billtype)
 }
-
+    override func display() {
+        print(self.AgencyName!,self.UnitsConsumed)
+        
+    }
 }
+
+
 
 

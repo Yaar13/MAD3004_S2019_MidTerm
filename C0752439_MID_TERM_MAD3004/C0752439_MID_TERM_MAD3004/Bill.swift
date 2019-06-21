@@ -9,7 +9,7 @@
 import Foundation
 class Bill: Idisplay {
     var BillId: Int?
-    var BillDate: Date?
+    var BillDate: Date
     var Billtype: String?
     var TotalBillAmount: Double?
     
@@ -21,4 +21,11 @@ class Bill: Idisplay {
         self.Billtype = bType
         self.TotalBillAmount = TbillAmount
     }
+    
+    func display() {
+        print("The Bill Id is Shown as")
+    }
+    
 }
+
+

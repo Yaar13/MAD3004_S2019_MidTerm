@@ -9,11 +9,25 @@
 import Foundation
 
 class Internet: Bill{
+    
     var providerName: String
+   
     var dataUsed: Double
     
     init(PName: String, DataUsed: Double ) {
+       
         self.providerName = String()
+        
         self.dataUsed = Double()
+   
+    }
+   
+    
+    override func display() {
+        
+       
+        print(self.providerName,self.dataUsed)
+        
+        
     }
 }

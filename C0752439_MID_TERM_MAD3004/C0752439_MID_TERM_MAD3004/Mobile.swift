@@ -8,11 +8,11 @@
 
 import Foundation
 class Mobile: Bill {
-    var MobilemanufacturerName: String
-    var PlanName: String
-    var MobileNumber: Int
-    var InternetGBUsed: String
-    var MinutesUsed: String
+    var MobilemanufacturerName: String?
+    var PlanName: String?
+    var MobileNumber: Int?
+    var InternetGBUsed: String?
+    var MinutesUsed: String?
 
     init(Mname: String , PName:String, Mnum: Int, IntUsed: String, MinUsed: String)
     
@@ -24,10 +24,14 @@ class Mobile: Bill {
         self.MinutesUsed = MinUsed
         
         super.init(bID:BillId , bDate: BillDate, bType: Billtype, TbillAmount: TotalBillAmount)
-        
 
     }
+    override func display() {
         
+        print(self.MobilemanufacturerName!,self.PlanName!,self.MobileNumber!,self.InternetGBUsed as Any,self.MinutesUsed!)
+        
+    }
+
 }
 
 

@@ -32,6 +32,12 @@ class Customer : IDisplay {
         self.Email_id = E_id
         self.Total_amout = Tot_amt
     }
-    
+    func display() {
+        print("customer ID is: \(String(describing: self.Customer_id!))")
+        print("Customer first name is : \(String(describing: self.First_name))")
+        print("Customer last name is : \(String(describing: self.Last_name))")
+        print("customer Email is: \(String(describing: self.Email_id))")
+        
+    }
 }
 
