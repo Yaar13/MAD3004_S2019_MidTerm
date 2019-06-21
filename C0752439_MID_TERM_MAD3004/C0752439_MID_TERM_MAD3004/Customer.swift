@@ -23,7 +23,7 @@ class Customer : IDisplay {
     private static var bill_dictionary=Dictionary<Int,Float>()
     
     
-    // Here full name is the computed proterty
+    //full name is the Computed property
     
     init(Cust_id: Int,ful_name: String,Last_name: String,E_id: String,Tot_amt: Float) {
         self.Customer_id = Cust_id
