@@ -7,7 +7,7 @@
 //
 
 import Foundation
-class Bill: Idisplay {
+class Bill: Idisplay{
     var BillId: Int?
     var BillDate: Date
     var Billtype: String?
@@ -26,6 +26,6 @@ class Bill: Idisplay {
         print("The Bill Id is Shown as")
     }
     
-}
 
+}
 

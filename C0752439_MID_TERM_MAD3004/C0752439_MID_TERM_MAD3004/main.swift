@@ -17,4 +17,7 @@ var Customer_3: Customer = Customer.init(Cust_id: 3, ful_name: "Rishabh", Last_n
 var Customer_4: Customer = Customer.init(Cust_id: 1, ful_name: "Arpit", Last_name: "Garg", E_id: "Arpitgarg6y6@yahoo.in", Tot_amt: 4000)
 
 
-var BillNumber1 =
+var BillNumber1 = [1 : 1000.00, 2 : 1500.00, 3 : 400.00]
+var BillNumber2 = [1 : 180.00,  2 : 400.00]
+var BillNumber3 = [1 : 700.00]
+var BillNumber4 = [1 : 1200.00, 2 : 1500.00,3 : 3000.00, 4 : 100.00]
